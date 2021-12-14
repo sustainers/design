@@ -50,9 +50,9 @@ jobs:
       HUGO_BUILD_DIR: ~/hugo/design/public
     steps:
       # add repository deploy key (for pull/push access)
-      #- add_ssh_keys:
-      #    fingerprints:
-      #      - "21:74:62:c8:10:59:77:7c:9d:96:cf:c8:69:84:1f:bb"
+      - add_ssh_keys:
+          fingerprints:
+            - "d8:12:ed:11:39:a5:a3:56:bc:12:0b:f9:e8:05:3b:67"
 
       # deploy.sh dependencies
       - run: apk add rsync
