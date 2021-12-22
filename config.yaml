@@ -55,6 +55,7 @@ privacy:
 
 
 # --- navigation menu ---
+
 menu:
   main:
     - name: FAQ
@@ -119,8 +120,19 @@ params:
   # related article number limit
   article_count: 3
 
+  # brand and identity information
+  brand:
+    parent_org_name: SustainOSS
+    parent_org_url: https://sustainoss.org/
+    parent_org_url_legal: https://sustainoss.org/privacy/
+  footer:
+    mainSite: https://discourse.sustainoss.org/c/working-groups/design/25
+    mainSiteName: Discourse @ SustainOSS
+    description: Inventory of design resources, best practices, and content about design contributions in Open Source.
+
 
 # --- social platform settings ---
+
 # themify icon pack : https://themify.me/themify-icons
 
   social:
@@ -130,13 +142,10 @@ params:
     - icon: ti-twitter
       name: "@SustainOSS on Twitter"
       link: https://twitter.com/SustainOSS
-  footer:
-    mainSite: https://discourse.sustainoss.org/c/working-groups/design/25
-    mainSiteName: Discourse @ SustainOSS
-    description: Inventory of design resources, best practices, and content about design contributions in Open Source.
 
 
 # --- taxonomy settings ---
+
 taxonomies:
   alert: alerts
   category: categories
