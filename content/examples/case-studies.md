@@ -8,7 +8,7 @@ downloadBtn: "true"
 
 Various case studies (both current and 'archived' or 'ended') that are examples of how design can be done in OSS or case studies by designers in Open Source Software.
 
-* [**Simple.org**](Simple.org):
+* [**Simple.org**](https://www.simple.org/):
   This is the documentation effort done by the Simple.org team for their internal design team (funded) and also the designers they engage outside of their staff. They approached design volunteer contributions with a view to select 'design experts in certain medical areas' e.g. a designer that had previously worked on diabetes tools and services. This serves as a good example of documentation and processes that can be referenced when you're an OSS org looking for 'specific design insight'
   [See their design documentation directly here](https://docs.simple.org/design-1/design)
   
