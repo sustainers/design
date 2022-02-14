@@ -2,10 +2,10 @@
 <html lang="en-us">
 	<head>
 		<meta charset="utf-8">
-		<title>For the maintainers</title>
+		<title>Case studies of design in OSS</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 		<meta name="generator" content="Hugo 0.92.2" />
-		<meta name="description" content="For the maintainers - Design &amp; UX, curated by Sustain ">
+		<meta name="description" content="Case studies of design in OSS - Design &amp; UX, curated by Sustain ">
 		<!-- ** CSS Plugins Needed for the Project ** -->
 		<!-- Bootstrap -->
 		<link rel="stylesheet" href="https://sustainers.github.io/design/plugins/bootstrap/bootstrap.min.css">
@@ -46,15 +46,16 @@
 		<!-- match-height JS -->
 		<script src="https://sustainers.github.io/design/plugins/match-height/jquery.matchHeight-min.js"></script>
 		<!-- create /layouts/partials/overrides/header.html in your own theme or root directory to add your custom content here -->
-		<meta name="twitter:title" content="For the maintainers"/>
-		<meta name="twitter:description" content="How to encourage design contributions as a maintainer of existing open source projects."/>
-		<meta property="og:title" content="For the maintainers" />
-		<meta property="og:description" content="How to encourage design contributions as a maintainer of existing open source projects." />
-		<meta property="og:type" content="website" />
-		<meta property="og:url" content="https://sustainers.github.io/design/maintainers/" />
+		<meta name="twitter:title" content="Case studies of design in OSS"/>
+		<meta name="twitter:description" content="Various case studies (both current and &#39;archived&#39; or &#39;ended&#39;) that are examples of how design can be done in OSS or case studies by designers in Open Source Software."/>
+		<meta property="og:title" content="Case studies of design in OSS" />
+		<meta property="og:description" content="Various case studies (both current and &#39;archived&#39; or &#39;ended&#39;) that are examples of how design can be done in OSS or case studies by designers in Open Source Software." />
+		<meta property="og:type" content="article" />
+		<meta property="og:url" content="https://sustainers.github.io/design/examples/case-studies/" /><meta property="article:section" content="examples" />
+		<meta property="article:modified_time" content="2022-02-14T22:26:32+00:00" />
 		<meta name="twitter:card" content="summary"/>
-		<meta name="twitter:title" content="For the maintainers"/>
-		<meta name="twitter:description" content="How to encourage design contributions as a maintainer of existing open source projects."/>
+		<meta name="twitter:title" content="Case studies of design in OSS"/>
+		<meta name="twitter:description" content="Various case studies (both current and &#39;archived&#39; or &#39;ended&#39;) that are examples of how design can be done in OSS or case studies by designers in Open Source Software."/>
 	</head>
 	<body>
 		<!-- header -->
@@ -114,13 +115,30 @@
 						<div class="sidebar">
 							<a class="back-btn" href="/design" aria-label="back"></a>
 							<ul>
-								<li data-nav-id="https://sustainers.github.io/design/maintainers/" title="For the maintainers" class="sidelist
-  active">
-									<a href="https://sustainers.github.io/design/maintainers/" class="font-weight-bold">
-										For the maintainers
+								<li data-nav-id="https://sustainers.github.io/design/examples/" title="Case studies &amp; examples" class="sidelist
+  ">
+									<a href="https://sustainers.github.io/design/examples/" class="font-weight-bold">
+										Case studies &amp; examples
 									</a>
 									<div class="accordion" id="accordionExample">
+										<ul>
+											<li data-nav-id="https://sustainers.github.io/design/examples/case-studies/" title="Case studies of design in OSS" class="sidelist
+  active">
+												<div class="container">
+													<div class="row">
+														<div class="col-10">
+															<a href="https://sustainers.github.io/design/examples/case-studies/" class="">
+																Case studies of design in OSS
+															</a>
+														</div>
+													</div>
+												</li>
+											</ul>
+										</div>
 									</li>
+									<div>
+										<button class="btn btn-primary btn-block" id="generatePDF">Get Pdf</button>
+									</div>
 								</ul>
 							</div>
 						</div>
@@ -139,19 +157,30 @@
 									}
 									i=s.length-1;
 									path+="<a href=\""+href.substring(0,href.indexOf(s[i])+s[i].length)+"\">"+s[i]+"</a>";
-									path+="  &gt;  <b>For the maintainers</b>";
+									path+="  &gt;  <b>Case studies of design in OSS</b>";
 									document.writeln(path);
 								</script>
 							</div>
 							<div class="p-lg-5 p-4 bg-white" id="content">
-								<h2 class="mb-5" id="title">For the maintainers</h2>
+								<h2 class="mb-5" id="title">Case studies of design in OSS</h2>
 								<div class="content">
-									<p>If you maintain an open source project, what steps can you take to make your project and community more inclusive and welcoming for design contributions? This theme is targeted for people who want to embrace design for their project, but do not have knowledge or experience in design. This could include activities and exercises to help a maintainer think from the perspective of a prospective design contributor to their project.</p>
+									<p>Various case studies (both current and &lsquo;archived&rsquo; or &lsquo;ended&rsquo;) that are examples of how design can be done in OSS or case studies by designers in Open Source Software.</p>
+									<ul>
+										<li>
+											<p><a href="https://www.simple.org/"><strong>Simple.org</strong></a>:
+												This is the documentation effort done by the Simple.org team for their internal design team (funded) and also the designers they engage outside of their staff. They approached design volunteer contributions with a view to select &lsquo;design experts in certain medical areas&rsquo; e.g. a designer that had previously worked on diabetes tools and services. This serves as a good example of documentation and processes that can be referenced when you&rsquo;re an OSS org looking for &lsquo;specific design insight&rsquo;
+												<a href="https://docs.simple.org/design-1/design">See their design documentation directly here</a></p>
+										</li>
+										<li>
+											<p><a href="https://docs.ushahidi.com/platform-developer-documentation/design/design-process"><strong>Open Source Design Processes at Ushahidi</strong></a>:
+												This documentations work at Ushahidi was funded by DIAL to improve the readability and inclusivity of Ushahidi&rsquo;s documentation to encourage contribution across functions and skills and documented good amounts of examples of how a design function within a moderately resourced NGO OSS org could be done.</p>
+										</li>
+									</ul>
 								</div>
 								<p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 14 Feb 2022</p>
 								<nav class="pagination mt-3">
-									<a class="nav nav-prev" href="https://sustainers.github.io/design/designers/tools/" aria-label="Previous page" ><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Tools for OSS Designers</span></a>
-									<a class="nav nav-next" href="https://sustainers.github.io/design/guidelines/" aria-label="Previous page" > <span class="d-none d-md-block">Guidelines &amp; frameworks</span><i class="ti-arrow-right ml-2"></i></a>
+									<a class="nav nav-prev" href="https://sustainers.github.io/design/examples/" aria-label="Previous page" ><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Case studies &amp; examples</span></a>
+									<a class="nav nav-next" href="https://sustainers.github.io/design/definitions/" aria-label="Previous page" > <span class="d-none d-md-block">Defining Design</span><i class="ti-arrow-right ml-2"></i></a>
 								</nav>
 								<section class="my-3 py-3" id="related-articles">
 									<h5 class="text-center">Related Articles</h5>

@@ -8,13 +8,35 @@
     <language>en-us</language>
     <copyright>Creative Commons BY-SA 4.0. Site theme adapted from UNICEF Inventory theme.</copyright><atom:link href="https://sustainers.github.io/design/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Case studies of design in OSS</title>
+      <link>https://sustainers.github.io/design/examples/case-studies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sustainers.github.io/design/examples/case-studies/</guid>
+      <description>Various case studies (both current and &amp;lsquo;archived&amp;rsquo; or &amp;lsquo;ended&amp;rsquo;) that are examples of how design can be done in OSS or case studies by designers in Open Source Software.
+  Simple.org: This is the documentation effort done by the Simple.org team for their internal design team (funded) and also the designers they engage outside of their staff. They approached design volunteer contributions with a view to select &amp;lsquo;design experts in certain medical areas&amp;rsquo; e.</description>
+    </item>
+    
+    <item>
       <title>Reading list</title>
       <link>https://sustainers.github.io/design/guidelines/reading-list/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://sustainers.github.io/design/guidelines/reading-list/</guid>
-      <description>Various readings and learnings about design and user experience. Usually with some kind of Open Source overlap or context.
+      <description>Various readings and learnings about design and user experience, usually with some kind of Open Source overlap or context.
  Trauma &amp;amp; design PubPub: Some basic definitions key to understanding the relationship between trauma and design. Maintained by:  KJ Hepworth Kat Lo Eriol Fox Shirin Mori   Ushahidi Open Design, maintained by Eriol Fox: A collection of resources, notes, and other written content for distributed, asynchronous design contributions to software projects.</description>
+    </item>
+    
+    <item>
+      <title>Tools for OSS Designers</title>
+      <link>https://sustainers.github.io/design/designers/tools/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sustainers.github.io/design/designers/tools/</guid>
+      <description>Various tools that are preferably and primarily OSS for designers to use in developing Open Source Software.
+  Penpot.app: Collaborative UI design prototyping and design system creation tool (alternative to Figma and Adobe XD) Interactive content or app. Able to be self-hosted.
+  Excalidraw: A great intuitive and attractive tool for easy imaging/chartm-aking.
+  </description>
     </item>
     
   </channel>

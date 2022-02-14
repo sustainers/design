@@ -7,5 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Creative Commons BY-SA 4.0. Site theme adapted from UNICEF Inventory theme.</copyright><atom:link href="https://sustainers.github.io/design/designers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tools for OSS Designers</title>
+      <link>https://sustainers.github.io/design/designers/tools/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sustainers.github.io/design/designers/tools/</guid>
+      <description>Various tools that are preferably and primarily OSS for designers to use in developing Open Source Software.
+  Penpot.app: Collaborative UI design prototyping and design system creation tool (alternative to Figma and Adobe XD) Interactive content or app. Able to be self-hosted.
+  Excalidraw: A great intuitive and attractive tool for easy imaging/chartm-aking.
+  </description>
+    </item>
+    
   </channel>
 </rss>
