@@ -6,8 +6,7 @@ downloadBtn: "true"
 
 ---
 
-Various readings and learnings about design and user experience.
-Usually with some kind of Open Source overlap or context.
+Various readings and learnings about design and user experience, usually with some kind of Open Source overlap or context.
 
 * [**Trauma & design PubPub**](https://hrcd.pubpub.org/pub/traumaanddesign):
   Some basic definitions key to understanding the relationship between trauma and design.
