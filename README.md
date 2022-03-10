@@ -21,12 +21,7 @@ The information here can be applied generally to Open Source projects.
 
 ## :busts_in_silhouette: Contributing
 
-_Coming soon_…
-
-<!--
-See [CONTRIBUTING.md](https://github.com/unicef/inventory/blob/main/.github/CONTRIBUTING.md "UNICEF Open Source Inventory contributing guidelines").
-See the [maintainer's guide](https://unicef.github.io/inventory/meta/maintainers-guide/ "Maintainer's guide for O.S. Inventory") for more information about how this repository is managed and governed.
--->
+See [CONTRIBUTING.md](/.github/CONTRIBUTING.md) for guidance on submitting changes and setting up a development environment.
 
 
 ## :memo: Legal
