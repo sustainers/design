@@ -7,7 +7,7 @@ type: "docs"
 
 S.O.S. Design is a podcast dedicated to exploring the intersection of open source and design: how design is crucial in the open source ecosystem, how designers work with coders to make open source software better, and what sustainability means for the field of open source designers. This podcast grew out of the Sustain community and Open Source Design, and seeks to share great conversations with members from both communities and the open source and design space at large.
 
-[Episode 2: Abraham Agiri and Designing as a Coder, and Coding as a Designer](https://sosdesign.sustainoss.org/2)
+## [Episode 2: Abraham Agiri and Designing as a Coder, and Coding as a Designer](https://sosdesign.sustainoss.org/2)
 
 - `[00:36:13]` Eriol’s spotlight is Penpot.
 - `[00:36:43]` Justin’s spotlight is Taiga6.
