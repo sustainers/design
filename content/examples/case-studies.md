@@ -21,5 +21,5 @@ These links can serve as inspiration for your own research or to further your un
 * [**Open Source Design Processes at Ushahidi**](https://docs.ushahidi.com/platform-developer-documentation/design/design-process):
   This documentations work at Ushahidi was funded by DIAL to improve the readability and inclusivity of Ushahidi's documentation to encourage contribution across functions and skills.
   It documented good amounts of examples of how a design function within a moderately resourced NGO OSS org could be done.
-* [**Sustain Open Source Design Podcast**](/design/examples/podcasts/):
+* [**Sustain Open Source Design Podcast**]({{< relref . "podcasts" >}}):
   S.O.S. Design is a podcast dedicated to exploring the intersection of open source and design: how design is crucial in the open source ecosystem, how designers work with coders to make open source software better, and what sustainability means for the field of open source designers. This podcast grew out of the Sustain community and Open Source Design, and seeks to share great conversations with members from both communities and the open source and design space at large.
