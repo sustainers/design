@@ -62,6 +62,10 @@ menu:
       weight: 10
       url: faq
 
+    - name: S.O.S. Design Podcast
+      weight: 12
+      url: https://sosdesign.sustainoss.org/
+
     - name: pages
       weight: 20
       url: pages
