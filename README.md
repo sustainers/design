@@ -29,6 +29,12 @@ See the [maintainer's guide](https://unicef.github.io/inventory/meta/maintainers
 -->
 
 
+## :two_hearts: Code of Conduct
+
+This project adheres to the SustainOSS Code of Conduct.
+Find the full details [here](/.github/CODE_OF_CONDUCT.md).
+
+
 ## :memo: Legal
 
 This repository is primarily content, and it is licensed under a [Creative Commons Attribution ShareAlike 4.0 International License][cc-by-sa-legal].
