@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<title>Case studies of design in OSS</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
-		<meta name="generator" content="Hugo 0.94.0" />
+		<meta name="generator" content="Hugo 0.96.0" />
 		<meta name="description" content="Case studies of design in OSS - Design &amp; UX, curated by Sustain ">
 		<!-- ** CSS Plugins Needed for the Project ** -->
 		<!-- Bootstrap -->
@@ -52,7 +52,7 @@
 		<meta property="og:description" content="Various case studies (both current and &#39;archived&#39; or &#39;ended&#39;) that are examples of how design can be done in OSS or case studies by designers in Open Source Software." />
 		<meta property="og:type" content="article" />
 		<meta property="og:url" content="https://sustainers.github.io/design/examples/case-studies/" /><meta property="article:section" content="examples" />
-		<meta property="article:modified_time" content="2022-03-11T14:51:25+02:00" />
+		<meta property="article:modified_time" content="2022-03-30T08:54:11+01:00" />
 		<meta name="twitter:card" content="summary"/>
 		<meta name="twitter:title" content="Case studies of design in OSS"/>
 		<meta name="twitter:description" content="Various case studies (both current and &#39;archived&#39; or &#39;ended&#39;) that are examples of how design can be done in OSS or case studies by designers in Open Source Software."/>
@@ -133,110 +133,123 @@
 														</div>
 													</div>
 												</li>
-											</ul>
+												<li data-nav-id="https://sustainers.github.io/design/examples/podcasts/" title="Sustain Open Source Design Podcast" class="sidelist
+  ">
+													<div class="container">
+														<div class="row">
+															<div class="col-10">
+																<a href="https://sustainers.github.io/design/examples/podcasts/" class="">
+																	Sustain Open Source Design Podcast
+																</a>
+															</div>
+														</div>
+													</li>
+												</ul>
+											</div>
+										</li>
+										<div>
+											<button class="btn btn-primary btn-block" id="generatePDF">Get Pdf</button>
 										</div>
-									</li>
-									<div>
-										<button class="btn btn-primary btn-block" id="generatePDF">Get Pdf</button>
-									</div>
-								</ul>
-							</div>
-						</div>
-						<div class="col-lg-9">
-							<div class="bg-white p-3" style="margin:auto">
-								<script language="JavaScript">
-									String.prototype.capitalizeFirstLetter = function() {
-									   return this.charAt(0).toUpperCase() + this.slice(1);
-									}
-
-									var path = "<a style='margin-left:2%' href='https:\/\/sustainers.github.io\/design\/'>Home</a>";
-									var href = document.location.href;
-									var s = href.split("/");
-									for (var i=3;i<(s.length-2);i++) {
-									   path+=" &gt;  <a href=\""+href.substring(0,href.indexOf("/"+s[i])+s[i].length+1)+"/\">"+s[i].capitalizeFirstLetter()+"</a> ";
-									}
-									i=s.length-1;
-									path+="<a href=\""+href.substring(0,href.indexOf(s[i])+s[i].length)+"\">"+s[i]+"</a>";
-									path+="  &gt;  <b>Case studies of design in OSS</b>";
-									document.writeln(path);
-								</script>
-							</div>
-							<div class="p-lg-5 p-4 bg-white" id="content">
-								<h2 class="mb-5" id="title">Case studies of design in OSS</h2>
-								<div class="content">
-									<p>This page is a collection of resources, links, articles, case studies and more that are relevant examples of how design can be done in OSS or case studies by designers in Open Source Software.
-										These links can serve as inspiration for your own research or to further your understanding of how design manifests in open communities.</p>
-									<ul>
-										<li><a href="https://wiki.documentfoundation.org/Design/Principles"><strong>Document Foundation UX Principles</strong></a>:
-											All designs for LibreOffice should be checked against these principles.
-											These principles are currently mostly copies of those set out by Mozilla.
-											This page in particular features many definitions and concepts used in the LibreOffice development community.</li>
-										<li><a href="https://www.simple.org/"><strong>Simple.org</strong></a>:
-											This is the documentation effort done by the Simple.org team for their internal design team (funded) and also the designers they engage outside of their staff.
-											They approached design volunteer contributions with a view to select &lsquo;design experts in certain medical areas&rsquo; e.g. a designer that had previously worked on diabetes tools and services.
-											This serves as a good example of documentation and processes that can be referenced when you&rsquo;re an OSS org looking for &lsquo;specific design insight&rsquo;.
-											<a href="https://docs.simple.org/design-1/design">See their design documentation directly here</a>.</li>
-										<li><a href="https://docs.ushahidi.com/platform-developer-documentation/design/design-process"><strong>Open Source Design Processes at Ushahidi</strong></a>:
-											This documentations work at Ushahidi was funded by DIAL to improve the readability and inclusivity of Ushahidi&rsquo;s documentation to encourage contribution across functions and skills.
-											It documented good amounts of examples of how a design function within a moderately resourced NGO OSS org could be done.</li>
 									</ul>
 								</div>
-								<p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 11 Mar 2022</p>
-								<nav class="pagination mt-3">
-									<a class="nav nav-prev" href="https://sustainers.github.io/design/examples/" aria-label="Previous page" ><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Case studies &amp; examples</span></a>
-									<a class="nav nav-next" href="https://sustainers.github.io/design/definitions/" aria-label="Previous page" > <span class="d-none d-md-block">Defining Design</span><i class="ti-arrow-right ml-2"></i></a>
-								</nav>
-								<section class="my-3 py-3" id="related-articles">
-									<h5 class="text-center">Related Articles</h5>
-									<div class="row">
+							</div>
+							<div class="col-lg-9">
+								<div class="bg-white p-3" style="margin:auto">
+									<script language="JavaScript">
+										String.prototype.capitalizeFirstLetter = function() {
+										   return this.charAt(0).toUpperCase() + this.slice(1);
+										}
+
+										var path = "<a style='margin-left:2%' href='https:\/\/sustainers.github.io\/design\/'>Home</a>";
+										var href = document.location.href;
+										var s = href.split("/");
+										for (var i=3;i<(s.length-2);i++) {
+										   path+=" &gt;  <a href=\""+href.substring(0,href.indexOf("/"+s[i])+s[i].length+1)+"/\">"+s[i].capitalizeFirstLetter()+"</a> ";
+										}
+										i=s.length-1;
+										path+="<a href=\""+href.substring(0,href.indexOf(s[i])+s[i].length)+"\">"+s[i]+"</a>";
+										path+="  &gt;  <b>Case studies of design in OSS</b>";
+										document.writeln(path);
+									</script>
+								</div>
+								<div class="p-lg-5 p-4 bg-white" id="content">
+									<h2 class="mb-5" id="title">Case studies of design in OSS</h2>
+									<div class="content">
+										<p>This page is a collection of resources, links, articles, case studies and more that are relevant examples of how design can be done in OSS or case studies by designers in Open Source Software.
+											These links can serve as inspiration for your own research or to further your understanding of how design manifests in open communities.</p>
+										<ul>
+											<li><a href="https://wiki.documentfoundation.org/Design/Principles"><strong>Document Foundation UX Principles</strong></a>:
+												All designs for LibreOffice should be checked against these principles.
+												These principles are currently mostly copies of those set out by Mozilla.
+												This page in particular features many definitions and concepts used in the LibreOffice development community.</li>
+											<li><a href="https://www.simple.org/"><strong>Simple.org</strong></a>:
+												This is the documentation effort done by the Simple.org team for their internal design team (funded) and also the designers they engage outside of their staff.
+												They approached design volunteer contributions with a view to select &lsquo;design experts in certain medical areas&rsquo; e.g. a designer that had previously worked on diabetes tools and services.
+												This serves as a good example of documentation and processes that can be referenced when you&rsquo;re an OSS org looking for &lsquo;specific design insight&rsquo;.
+												<a href="https://docs.simple.org/design-1/design">See their design documentation directly here</a>.</li>
+											<li><a href="https://docs.ushahidi.com/platform-developer-documentation/design/design-process"><strong>Open Source Design Processes at Ushahidi</strong></a>:
+												This documentations work at Ushahidi was funded by DIAL to improve the readability and inclusivity of Ushahidi&rsquo;s documentation to encourage contribution across functions and skills.
+												It documented good amounts of examples of how a design function within a moderately resourced NGO OSS org could be done.</li>
+											<li><a href="/design/examples/podcasts/"><strong>Sustain Open Source Design Podcast</strong></a>:
+												S.O.S. Design is a podcast dedicated to exploring the intersection of open source and design: how design is crucial in the open source ecosystem, how designers work with coders to make open source software better, and what sustainability means for the field of open source designers. This podcast grew out of the Sustain community and Open Source Design, and seeks to share great conversations with members from both communities and the open source and design space at large.</li>
+										</ul>
 									</div>
-								</section>
+									<p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 30 Mar 2022</p>
+									<nav class="pagination mt-3">
+										<a class="nav nav-prev" href="https://sustainers.github.io/design/examples/" aria-label="Previous page" ><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Case studies &amp; examples</span></a>
+										<a class="nav nav-next" href="https://sustainers.github.io/design/examples/podcasts/" aria-label="Previous page" > <span class="d-none d-md-block">Sustain Open Source Design Podcast</span><i class="ti-arrow-right ml-2"></i></a>
+									</nav>
+									<section class="my-3 py-3" id="related-articles">
+										<h5 class="text-center">Related Articles</h5>
+										<div class="row">
+										</div>
+									</section>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-		</section>
-		<!-- /details page -->
-		<!-- footer -->
-		<footer class="section bg-primary p-4 mt-5">
-			<div class="container">
-				<div class="row align-items-center">
-					<div class="col-md-3 text-md-left text-center">
-						<ul>
-							<li><a class="nav-link text-white" href="/design">HOME</a></li>
-							<li class="nav-item">
-								<a class="nav-link text-white text-uppercase" href="https://sustainers.github.io/design/faq">FAQ</a>
-							</li>
-						</ul>
-					</div>
-					<div class="col-md-6 text-md-center text-center">
-						<p class="mb-md-0 mb-4 text-white">Inventory of design resources, best practices, and content about design contributions in Open Source.</p>
-					</div>
-					<div class="col-md-3 text-md-right text-center">
-						<ul class="text-white">
-							<li class="nav-item">
-								<a class="nav-link text-white font-weight-bold" href="https://sustainoss.org/">SustainOSS</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link text-white font-weight-bold" href="https://discourse.sustainoss.org/c/working-groups/design/25">Discourse @ SustainOSS</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link text-white font-weight-bold" href="https://sustainoss.org/privacy/">Legal</a>
-								<p class="h6 text-md-right font-weight-light">Find legal information and policies related to SustainOSS&#39;s digital communications.</p>
-							</li>
-						</ul>
-						<ul class="list-inline">
-							<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://github.com/sustainers/design" aria-label="SustainOSS on GitHub"><i class="ti-github"></i></a></li>
-							<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://twitter.com/SustainOSS" aria-label="@SustainOSS on Twitter"><i class="ti-twitter"></i></a></li>
-						</ul>
+			</section>
+			<!-- /details page -->
+			<!-- footer -->
+			<footer class="section bg-primary p-4 mt-5">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-md-3 text-md-left text-center">
+							<ul>
+								<li><a class="nav-link text-white" href="/design">HOME</a></li>
+								<li class="nav-item">
+									<a class="nav-link text-white text-uppercase" href="https://sustainers.github.io/design/faq">FAQ</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-md-6 text-md-center text-center">
+							<p class="mb-md-0 mb-4 text-white">Inventory of design resources, best practices, and content about design contributions in Open Source.</p>
+						</div>
+						<div class="col-md-3 text-md-right text-center">
+							<ul class="text-white">
+								<li class="nav-item">
+									<a class="nav-link text-white font-weight-bold" href="https://sustainoss.org/">SustainOSS</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link text-white font-weight-bold" href="https://discourse.sustainoss.org/c/working-groups/design/25">Discourse @ SustainOSS</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link text-white font-weight-bold" href="https://sustainoss.org/privacy/">Legal</a>
+									<p class="h6 text-md-right font-weight-light">Find legal information and policies related to SustainOSS&#39;s digital communications.</p>
+								</li>
+							</ul>
+							<ul class="list-inline">
+								<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://github.com/sustainers/design" aria-label="SustainOSS on GitHub"><i class="ti-github"></i></a></li>
+								<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://twitter.com/SustainOSS" aria-label="@SustainOSS on Twitter"><i class="ti-twitter"></i></a></li>
+							</ul>
+						</div>
 					</div>
 				</div>
-			</div>
-			<p class="text-md-center text-center text-white mt-3 h6 font-italic">Creative Commons BY-SA 4.0. Site theme adapted from UNICEF Inventory theme.</p>
-		</footer>
-		<!-- /footer -->
-		<!-- Main Script -->
-		<script src="https://sustainers.github.io/design/js/script.min.js"></script>
-	</body>
-</html>
+				<p class="text-md-center text-center text-white mt-3 h6 font-italic">Creative Commons BY-SA 4.0. Site theme adapted from UNICEF Inventory theme.</p>
+			</footer>
+			<!-- /footer -->
+			<!-- Main Script -->
+			<script src="https://sustainers.github.io/design/js/script.min.js"></script>
+		</body>
+	</html>

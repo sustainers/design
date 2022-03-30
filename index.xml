@@ -28,6 +28,15 @@
     </item>
     
     <item>
+      <title>Sustain Open Source Design Podcast</title>
+      <link>https://sustainers.github.io/design/examples/podcasts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sustainers.github.io/design/examples/podcasts/</guid>
+      <description>S.O.S. Design is a podcast dedicated to exploring the intersection of open source and design: how design is crucial in the open source ecosystem, how designers work with coders to make open source software better, and what sustainability means for the field of open source designers. This podcast grew out of the Sustain community and Open Source Design, and seeks to share great conversations with members from both communities and the open source and design space at large.</description>
+    </item>
+    
+    <item>
       <title>Tools for OSS Designers</title>
       <link>https://sustainers.github.io/design/designers/tools/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

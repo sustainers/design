@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<title>Sustain Open Source Design Podcast</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<meta name="generator" content="Hugo 0.96.0" />
+		<meta name="description" content="Sustain Open Source Design Podcast - Design &amp; UX, curated by Sustain ">
+		<!-- ** CSS Plugins Needed for the Project ** -->
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="https://sustainers.github.io/design/plugins/bootstrap/bootstrap.min.css">
+		<!-- themefy-icon -->
+		<link rel="stylesheet" href="https://sustainers.github.io/design/plugins/themify-icons/themify-icons.css">
+		<!-- drones-categories-icon -->
+		<link rel="stylesheet" href="https://sustainers.github.io/design/plugins/drone-dpgtoolkit-icons/icons.css">
+		<!--Favicon-->
+		<link rel="icon" href="https://sustainers.github.io/design/images/favicon.png" type="image/x-icon">
+		<!-- fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Open%2bSans:300,400,700&display=swap" rel="stylesheet">
+		<!-- PDF.js -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.js"></script>
+		<!-- fonts -->
+		<script src="https://kit.fontawesome.com/9196e0632a.js" crossorigin="anonymous"></script>
+		<style>
+			:root{
+			  --primary-color:#32c6b0;
+			  --body-color:#D8D1C9;
+			  --text-color:#777779;
+			  --text-color-dark:#374EA2;
+			  --text-title-color:#264959ff;
+			  --white-color:#ffffff;
+			  --light-color:#f8f9fa;
+			  --font-family:Open+Sans;
+			}
+		</style>
+		<!-- Main Stylesheet -->
+		<link href="https://sustainers.github.io/design/css/style.min.css" rel="stylesheet" media="screen"/>
+		<!-- ** JS Plugins Needed for the Project ** -->
+		<!-- jquiry -->
+		<script src="https://sustainers.github.io/design/plugins/jquery/jquery-1.12.4.js"></script>
+		<!-- jquary ui -->
+		<script src="https://sustainers.github.io/design/plugins/jquery/jquery-ui.js"></script>
+		<!-- Bootstrap JS -->
+		<script src="https://sustainers.github.io/design/plugins/bootstrap/bootstrap.min.js"></script>
+		<!-- match-height JS -->
+		<script src="https://sustainers.github.io/design/plugins/match-height/jquery.matchHeight-min.js"></script>
+		<!-- create /layouts/partials/overrides/header.html in your own theme or root directory to add your custom content here -->
+		<meta name="twitter:title" content="Sustain Open Source Design Podcast"/>
+		<meta name="twitter:description" content="All about meaningful contributions between Open Source and Design"/>
+		<meta property="og:title" content="Sustain Open Source Design Podcast" />
+		<meta property="og:description" content="All about meaningful contributions between Open Source and Design" />
+		<meta property="og:type" content="article" />
+		<meta property="og:url" content="https://sustainers.github.io/design/examples/podcasts/" /><meta property="article:section" content="examples" />
+		<meta property="article:modified_time" content="2022-03-30T09:20:36+03:00" />
+		<meta name="twitter:card" content="summary"/>
+		<meta name="twitter:title" content="Sustain Open Source Design Podcast"/>
+		<meta name="twitter:description" content="All about meaningful contributions between Open Source and Design"/>
+	</head>
+	<body>
+		<!-- header -->
+		<header class="shadow-bottom sticky-top bg-white">
+			<nav class="navbar navbar-expand-md navbar-dark" style=" background-color: #32c6b0">
+				<div class="container px-2 px-md-0 navigation-bar">
+					<div id="site-brand">
+						<a class="navbar-brand px-2" href="https://sustainoss.org/">
+							<div class="text-center nav-heading">
+								<img class="img-fluid nav-img" src="https://sustainers.github.io/design/images/logo.png" alt="Design &amp; UX, curated by Sustain">
+								<a class="d-block nav-title" href="/design">Design &amp; UX, curated by Sustain</a>
+							</div>
+						</a>
+					</div>
+					<button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation"
+      aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse text-center" id="navigation">
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item">
+								<a class="nav-link text-white" href="https://sustainers.github.io/design/faq">FAQ</a>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle text-white" href="#" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+									pages
+								</a>
+								<div class="dropdown-menu">
+									<a class="dropdown-item" href="https://sustainers.github.io/design/definitions">Defining Design</a>
+									<a class="dropdown-item" href="https://sustainers.github.io/design/maintainers">For the maintainers</a>
+									<a class="dropdown-item" href="https://sustainers.github.io/design/designers">For the designers</a>
+									<a class="dropdown-item" href="https://sustainers.github.io/design/guidelines">Guidelines &amp; frameworks</a>
+									<a class="dropdown-item" href="https://sustainers.github.io/design/examples">Case studies &amp; examples</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<p class="text-white unicef-glob mx-3">Visit <a href="https://sustainoss.org/" class="text-white">SustainOSS <i class="fas fa-angle-double-right"></i></a></p>
+			</nav>
+		</header>
+		<!-- /header -->
+		<script>
+			remSpace()
+		</script>
+		<script>
+			function remSpace() {
+			  document.getElementById("section").style.paddingTop = "3rem";
+			}
+		</script>
+		<!-- details page -->
+		<section class="single section-sm main-section" id="section">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3">
+						<div class="sidebar">
+							<a class="back-btn" href="/design" aria-label="back"></a>
+							<ul>
+								<li data-nav-id="https://sustainers.github.io/design/examples/" title="Case studies &amp; examples" class="sidelist
+  ">
+									<a href="https://sustainers.github.io/design/examples/" class="font-weight-bold">
+										Case studies &amp; examples
+									</a>
+									<div class="accordion" id="accordionExample">
+										<ul>
+											<li data-nav-id="https://sustainers.github.io/design/examples/case-studies/" title="Case studies of design in OSS" class="sidelist
+  ">
+												<div class="container">
+													<div class="row">
+														<div class="col-10">
+															<a href="https://sustainers.github.io/design/examples/case-studies/" class="">
+																Case studies of design in OSS
+															</a>
+														</div>
+													</div>
+												</li>
+												<li data-nav-id="https://sustainers.github.io/design/examples/podcasts/" title="Sustain Open Source Design Podcast" class="sidelist
+  active">
+													<div class="container">
+														<div class="row">
+															<div class="col-10">
+																<a href="https://sustainers.github.io/design/examples/podcasts/" class="">
+																	Sustain Open Source Design Podcast
+																</a>
+															</div>
+														</div>
+													</li>
+												</ul>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-lg-9">
+								<div class="bg-white p-3" style="margin:auto">
+									<script language="JavaScript">
+										String.prototype.capitalizeFirstLetter = function() {
+										   return this.charAt(0).toUpperCase() + this.slice(1);
+										}
+
+										var path = "<a style='margin-left:2%' href='https:\/\/sustainers.github.io\/design\/'>Home</a>";
+										var href = document.location.href;
+										var s = href.split("/");
+										for (var i=3;i<(s.length-2);i++) {
+										   path+=" &gt;  <a href=\""+href.substring(0,href.indexOf("/"+s[i])+s[i].length+1)+"/\">"+s[i].capitalizeFirstLetter()+"</a> ";
+										}
+										i=s.length-1;
+										path+="<a href=\""+href.substring(0,href.indexOf(s[i])+s[i].length)+"\">"+s[i]+"</a>";
+										path+="  &gt;  <b>Sustain Open Source Design Podcast</b>";
+										document.writeln(path);
+									</script>
+								</div>
+								<div class="p-lg-5 p-4 bg-white" id="content">
+									<h2 class="mb-5" id="title">Sustain Open Source Design Podcast</h2>
+									<div class="content">
+										<p>S.O.S. Design is a podcast dedicated to exploring the intersection of open source and design: how design is crucial in the open source ecosystem, how designers work with coders to make open source software better, and what sustainability means for the field of open source designers. This podcast grew out of the Sustain community and Open Source Design, and seeks to share great conversations with members from both communities and the open source and design space at large.</p>
+										<h2 id="episode-2-abraham-agiri-and-designing-as-a-coder-and-coding-as-a-designerhttpssosdesignsustainossorg2"><a href="https://sosdesign.sustainoss.org/2">Episode 2: Abraham Agiri and Designing as a Coder, and Coding as a Designer</a>&nbsp;<a class="hanchor" href="#episode-2-abraham-agiri-and-designing-as-a-coder-and-coding-as-a-designerhttpssosdesignsustainossorg2">🔗</a> </h2>
+										<ul>
+											<li>Eriol’s spotlight is Penpot.</li>
+											<li>Justin’s spotlight is Taiga6.</li>
+											<li>Memo’s spotlight is Open Web Docs.</li>
+											<li>Richard’s spotlight is NodeSchool.</li>
+											<li>Agiri’s spotlight is NodeJs and OpenJs Foundation.</li>
+										</ul>
+										<hr>
+										<h2 id="episode-3-smera-goel-on-designing-in-the-fedora-project-outreachy-and-indiahttpssosdesignsustainossorg3"><a href="https://sosdesign.sustainoss.org/3">Episode 3: Smera Goel on Designing in the Fedora Project, Outreachy, and India</a>&nbsp;<a class="hanchor" href="#episode-3-smera-goel-on-designing-in-the-fedora-project-outreachy-and-indiahttpssosdesignsustainossorg3">🔗</a> </h2>
+										<ul>
+											<li>Justin’s spotlight is the announcement of the new research from the Ford and Sloan Foundation funding.</li>
+											<li>Memo’s spotlight is Spline.</li>
+											<li>Richard’s spotlight is his mentor, Alexis Palmer.</li>
+											<li>Smera’s spotlight is Fedora Design, especially Fedora Badges, Zine, and Infographics.</li>
+										</ul>
+										<hr>
+										<h2 id="episode-4-jan-dittrich-and-the-anthropology-of-open-source-designhttpssosdesignsustainossorg4"><a href="https://sosdesign.sustainoss.org/4">Episode 4: Jan Dittrich and the Anthropology of Open Source Design</a>&nbsp;<a class="hanchor" href="#episode-4-jan-dittrich-and-the-anthropology-of-open-source-designhttpssosdesignsustainossorg4">🔗</a> </h2>
+										<ul>
+											<li>Richard’s spotlight is a PDF he read by John Wiegley, “Git from the Bottom Up” which is a great resource for understanding how Git works.</li>
+											<li>Eriol’s spotlight is an open source project called Beyond20, which integrates with various things that you can use to play Dungeons &amp; Dragons.</li>
+											<li>Jan’s spotlight is an open source project called p5.js, which is a JavaScript library for creative coding.</li>
+										</ul>
+										<hr>
+										<h2 id="episode-5-bryan-paget-on-open-source-developers-with-design-thinkinghttpssosdesignsustainossorg5"><a href="https://sosdesign.sustainoss.org/5">Episode 5: Bryan Paget on Open Source Developers with Design Thinking</a>&nbsp;<a class="hanchor" href="#episode-5-bryan-paget-on-open-source-developers-with-design-thinkinghttpssosdesignsustainossorg5">🔗</a> </h2>
+										<ul>
+											<li>Richard’s spotlight is Anki.</li>
+											<li>Eriol’s spotlight is Dark Patterns Tip Line.</li>
+											<li>Bryan’s spotlight is Libre Graphics Meeting.</li>
+										</ul>
+										<hr>
+										<h2 id="episode-6-gleb-sabirzyanov-on-open-design-and-the-figma-plugin-ecosystemhttpssosdesignsustainossorg6"><a href="https://sosdesign.sustainoss.org/6">Episode 6: Gleb Sabirzyanov on Open Design and the Figma Plugin Ecosystem</a>&nbsp;<a class="hanchor" href="#episode-6-gleb-sabirzyanov-on-open-design-and-the-figma-plugin-ecosystemhttpssosdesignsustainossorg6">🔗</a> </h2>
+										<ul>
+											<li>Richard’s spotlight is a post by Justin Jackson called, “This is a web page.”</li>
+											<li>Gleb’s spotlight is VK Project on Figma community.</li>
+											<li>Memo’s spotlight is a new Figma product called FigJam.</li>
+										</ul>
+										<hr>
+										<h2 id="episode-7-christina-chumillas-on-design-at-drupalhttpssosdesignsustainossorg7"><a href="https://sosdesign.sustainoss.org/7">Episode 7: Christina Chumillas on Design at Drupal</a>&nbsp;<a class="hanchor" href="#episode-7-christina-chumillas-on-design-at-drupalhttpssosdesignsustainossorg7">🔗</a> </h2>
+										<ul>
+											<li>Memo’s spotlight is the first open source project he used called Opendesk.</li>
+											<li>Richard’s spotlight is Extinction Rebellion.</li>
+											<li>Eriol’s spotlight is an article called, “Design APIs like you design User Experience.”</li>
+											<li>Christina’s spotlight is a project called Variablefonts.io.</li>
+										</ul>
+										<hr>
+										<h2 id="episode-8-kartik-choudhary-on-mlh-fellowships-and-designhttpssosdesignsustainossorg8"><a href="https://sosdesign.sustainoss.org/8">Episode 8: Kartik Choudhary on MLH Fellowships and Design</a>&nbsp;<a class="hanchor" href="#episode-8-kartik-choudhary-on-mlh-fellowships-and-designhttpssosdesignsustainossorg8">🔗</a> </h2>
+										<ul>
+											<li>Kartik’s spotlight is a project he’s maintaining called Developer Folio.</li>
+											<li>Eriol’s spotlight is Patternfly.org.</li>
+											<li>Memo’s spotlight is Coop Design system and their Design principles.</li>
+										</ul>
+										<hr>
+										<h2 id="episode-9-andy-gonzalez-and-contributing-and-collaborating-as-a-designerhttpssosdesignsustainossorg9"><a href="https://sosdesign.sustainoss.org/9">Episode 9: Andy Gonzalez and Contributing and Collaborating as a Designer</a>&nbsp;<a class="hanchor" href="#episode-9-andy-gonzalez-and-contributing-and-collaborating-as-a-designerhttpssosdesignsustainossorg9">🔗</a> </h2>
+										<ul>
+											<li>Andy’s spotlight is Pure Data Software for visual programming.</li>
+											<li>Perrie’s spotlight is Open Source Community Africa Festival.</li>
+											<li>Eriol’s spotlight is a tool called Bitsy, a pixel game creator, by Le-doux.</li>
+											<li>Memo’s spotlight is a book called <em>Interaction of Color</em> by Josef Albers.</li>
+										</ul>
+										<hr>
+										<h2 id="episode-10-justin-scherer-on-open-source-design-at-staxhttpssosdesignsustainossorg10"><a href="https://sosdesign.sustainoss.org/10">Episode 10: Justin Scherer on Open Source Design at Stax</a>&nbsp;<a class="hanchor" href="#episode-10-justin-scherer-on-open-source-design-at-staxhttpssosdesignsustainossorg10">🔗</a> </h2>
+										<ul>
+											<li>Memo’s spotlight is an open source project called humaaans.</li>
+											<li>Georgia’s spotlight is an open source project called PhishDetect.</li>
+											<li>Eriol’s spotlight is a project from MozFest 2018 called Xenshana.</li>
+											<li>Justin’s spotlight is open source hardware called Music Thing Modular by Tom Whitwell who is based in London.</li>
+										</ul>
+										<hr>
+										<h2 id="episode-11-aditya-patel-and-building-better-design-practices-as-a-product-directorhttpssosdesignsustainossorg11"><a href="https://sosdesign.sustainoss.org/11">Episode 11: Aditya Patel and Building Better Design Practices as a Product Director</a>&nbsp;<a class="hanchor" href="#episode-11-aditya-patel-and-building-better-design-practices-as-a-product-directorhttpssosdesignsustainossorg11">🔗</a> </h2>
+										<ul>
+											<li>Eriol’s spotlight is vermontcomplexsystems.org Ocean Awards Program.</li>
+											<li>Richard’s spotlight is Talisk, an amazing band from Scotland.</li>
+											<li>Aditya’s spotlight is Storefront UI.</li>
+										</ul>
+										<hr>
+										<h2 id="episode-12-abhishek-sharma-on-collaborating-with-ngos-as-a-designerhttpssosdesignsustainossorg12"><a href="https://sosdesign.sustainoss.org/12">Episode 12: Abhishek Sharma on collaborating with NGOs as a designer</a>&nbsp;<a class="hanchor" href="#episode-12-abhishek-sharma-on-collaborating-with-ngos-as-a-designerhttpssosdesignsustainossorg12">🔗</a> </h2>
+										<ul>
+											<li>Memo’s spotlight is a resource repository model called Nice Very Nice.</li>
+											<li>Perrie’s spotlight is a new open source initiative called Open Source Stories.</li>
+											<li>Richard’s spotlight is Tiny Cat, the online catalog for tiny libraries.</li>
+											<li>Eriol’s spotlight is a project made by the Federation of Humanitarian Technologists and the tool called Coalesce.</li>
+											<li>Abhishek’s spotlights are the open source design community, and a project that they do at ColoredCow called Code Trek.</li>
+										</ul>
+										<hr>
+										<h2 id="episode-13-oleg-nenashev-and-designing-at-jenkinshttpssosdesignsustainossorg13"><a href="https://sosdesign.sustainoss.org/13">Episode 13: Oleg Nenashev and designing at Jenkins</a>&nbsp;<a class="hanchor" href="#episode-13-oleg-nenashev-and-designing-at-jenkinshttpssosdesignsustainossorg13">🔗</a> </h2>
+										<ul>
+											<li>Memo’s spotlight is open source typefaces to experiment with on Open Foundry.</li>
+											<li>Eriol’s spotlights are two HOTosm design repositories, design-strategy and HOT Design System.</li>
+											<li>Perrie’s spotlight is the CHAOSS Project.</li>
+											<li>Oleg’s spotlights are Apache Maven &amp; Community and FOSDEM.</li>
+										</ul>
+										<hr>
+										<h2 id="episode-14-django-skorupa-on-segueing-into-open-source-design-at-openrithttpssosdesignsustainossorg14"><a href="https://sosdesign.sustainoss.org/14">Episode 14: Django Skorupa on segueing into Open Source Design at Open@RIT</a>&nbsp;<a class="hanchor" href="#episode-14-django-skorupa-on-segueing-into-open-source-design-at-openrithttpssosdesignsustainossorg14">🔗</a> </h2>
+										<ul>
+											<li>Justin’s spotlight is Fedora Badges.</li>
+											<li>Richard’s spotlight is a Justin Flory.</li>
+											<li>Django’s spotlights are two open source projects: The League of Moveable Type and Unsplash.com.</li>
+										</ul>
+										<hr>
+										<h2 id="episode-15-jin-guo-and-jinghui-cheng-on-ux-and-design-in-scientific-oss-projectshttpssosdesignsustainossorg15"><a href="https://sosdesign.sustainoss.org/15">Episode 15: Jin Guo and Jinghui Cheng on UX and design in scientific OSS projects</a>&nbsp;<a class="hanchor" href="#episode-15-jin-guo-and-jinghui-cheng-on-ux-and-design-in-scientific-oss-projectshttpssosdesignsustainossorg15">🔗</a> </h2>
+										<ul>
+											<li>Memo’s spotlight is Jamstack.</li>
+											<li>Eriol’s spotlights are FOSS Backstage and one of their favorite academia papers called, “Non-response, Social Exclusion, and False Acceptance:  Gatekeeping Tactics and Usability Work in Free-Libre Open Source Software Development,” by Mikko Rajanen, Netta Iivari, and Arto Lanamäki</li>
+											<li>Richard’s spotlight is JS Montreal.</li>
+											<li>Jinghui’s spotlights are projects that influenced him and his research which are Atom, Jupyter notebook, and PyTorch.</li>
+											<li>Jin’s spotlights are two projects that influenced her previous work and current work which are scikit-learn and Zotero.</li>
+										</ul>
+										<hr>
+										<h2 id="episode-16-jérémy-landes-on-type-designinghttpssosdesignsustainossorg16"><a href="https://sosdesign.sustainoss.org/16">Episode 16: Jérémy Landes on Type Designing</a>&nbsp;<a class="hanchor" href="#episode-16-jérémy-landes-on-type-designinghttpssosdesignsustainossorg16">🔗</a> </h2>
+										<ul>
+											<li>Memo’s spotlight is Design Principles.</li>
+											<li>Eriol’s spotlight is Kigelia, a Typeface for Africa.</li>
+											<li>Richard’s spotlight is Coffee Table Typography.</li>
+											<li>Jeremy’s spotlights are ProcessWire and OSP.kitchen.</li>
+										</ul>
+									</div>
+									<p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 30 Mar 2022</p>
+									<nav class="pagination mt-3">
+										<a class="nav nav-prev" href="https://sustainers.github.io/design/examples/case-studies/" aria-label="Previous page" ><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Case studies of design in OSS</span></a>
+										<a class="nav nav-next" href="https://sustainers.github.io/design/definitions/" aria-label="Previous page" > <span class="d-none d-md-block">Defining Design</span><i class="ti-arrow-right ml-2"></i></a>
+									</nav>
+									<section class="my-3 py-3" id="related-articles">
+										<h5 class="text-center">Related Articles</h5>
+										<div class="row">
+										</div>
+									</section>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- /details page -->
+			<!-- footer -->
+			<footer class="section bg-primary p-4 mt-5">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-md-3 text-md-left text-center">
+							<ul>
+								<li><a class="nav-link text-white" href="/design">HOME</a></li>
+								<li class="nav-item">
+									<a class="nav-link text-white text-uppercase" href="https://sustainers.github.io/design/faq">FAQ</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-md-6 text-md-center text-center">
+							<p class="mb-md-0 mb-4 text-white">Inventory of design resources, best practices, and content about design contributions in Open Source.</p>
+						</div>
+						<div class="col-md-3 text-md-right text-center">
+							<ul class="text-white">
+								<li class="nav-item">
+									<a class="nav-link text-white font-weight-bold" href="https://sustainoss.org/">SustainOSS</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link text-white font-weight-bold" href="https://discourse.sustainoss.org/c/working-groups/design/25">Discourse @ SustainOSS</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link text-white font-weight-bold" href="https://sustainoss.org/privacy/">Legal</a>
+									<p class="h6 text-md-right font-weight-light">Find legal information and policies related to SustainOSS&#39;s digital communications.</p>
+								</li>
+							</ul>
+							<ul class="list-inline">
+								<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://github.com/sustainers/design" aria-label="SustainOSS on GitHub"><i class="ti-github"></i></a></li>
+								<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://twitter.com/SustainOSS" aria-label="@SustainOSS on Twitter"><i class="ti-twitter"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<p class="text-md-center text-center text-white mt-3 h6 font-italic">Creative Commons BY-SA 4.0. Site theme adapted from UNICEF Inventory theme.</p>
+			</footer>
+			<!-- /footer -->
+			<!-- Main Script -->
+			<script src="https://sustainers.github.io/design/js/script.min.js"></script>
+		</body>
+	</html>
